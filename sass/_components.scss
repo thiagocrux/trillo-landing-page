@@ -1,11 +1,11 @@
-/* Logo */
+/* LOGO */
 
 .logo {
      height: 3.25rem;
      margin-left: 2rem;
 }
 
-/* Search */
+/* SEARCH */
 
 .search {
     flex: 0 0 40%;
@@ -64,7 +64,7 @@
 }
 
 
-/* User navigation */
+/* USER NAVIGATION */
 
 .user-nav {
     align-self: stretch;
@@ -116,4 +116,28 @@
         border-radius: 50%;
         margin-right: 1rem;
     }
+}
+
+/* SIDE NAVIGATION */
+
+.side-nav {
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+.legal {
+    font-size: 1.2rem;
+    color: var(--color-grey-light-4);
+    text-align: center;
+    padding: 2.5rem;
 }
