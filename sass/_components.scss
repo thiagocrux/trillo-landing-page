@@ -395,17 +395,18 @@
         margin-right: .7rem;
 
         //Older browsers aproach
-        /* 
         background-image: url(../img/chevron-thin-right.svg);
         background-size: cover; 
-        */
 
         //Newer browsers aproach (masks)
-        background-color: var(--color-primary);
-        -webkit-mask-image: url(../img/chevron-thin-right.svg);
-        -webkit-mask-size: cover;
-        mask-image: url(../img/chevron-thin-right.svg);
-        size: cover;
+        @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+            background-color: var(--color-primary);
+            -webkit-mask-image: url(../img/chevron-thin-right.svg);
+            -webkit-mask-size: cover;
+            mask-image: url(../img/chevron-thin-right.svg);
+            size: cover;
+            background-image: none; // To make the image pink again.
+        }
     }
 }
 
