@@ -41,7 +41,7 @@ Execute the following command on the terminal
 
 ## :camera: Screenshots
 
-![screenshot-1](https://user-images.githubusercontent.com/29850573/109426544-fffd1f00-79cc-11eb-91b4-f739b3f8a51a.png)
+![screenshot-1](https://user-images.githubusercontent.com/29850573/109427750-91bb5b00-79d2-11eb-8cca-a4b631b4851d.png)
 
 ## :alarm_clock: Status
 
@@ -49,7 +49,7 @@ The project is finished.
 
 ## :pirate_flag: Licence
 
-Copyright (c) 2021 by Jonas Schmedtmann
+Copyright (c) 2017 by Jonas Schmedtmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
